@@ -1,0 +1,5 @@
+Assumptions:
+1. One log file is to be created per run of the Application as opposed to one log file per client.
+2. The log file is to be created in the OS-dependent temporary folder.
+3. The server does not respond to the client except to send a disconnect message upon invalid input.
+4. The report is a summary of all client input.
